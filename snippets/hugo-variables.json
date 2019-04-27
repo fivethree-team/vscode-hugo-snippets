@@ -1,0 +1,30 @@
+{
+    "hugo-description": {
+        "prefix": "h-description",
+        "body": [
+            "{{ .Description }}"
+        ],
+        "description": "Description page variable"
+    },
+    "hugo-summary": {
+        "prefix": "h-summary",
+        "body": [
+            "{{ .Summary }}"
+        ],
+        "description": "Summary page variable"
+    },
+    "hugo-table-of-contents": {
+        "prefix": "h-table-of-contents",
+        "body": [
+            "{{ .TableOfContents }}"
+        ],
+        "description": "TableOfContents page variable"
+    },
+    "hugo-title": {
+        "prefix": "h-title",
+        "body": [
+            "{{ .Title }}"
+        ],
+        "description": "Title page variable"
+    }
+}

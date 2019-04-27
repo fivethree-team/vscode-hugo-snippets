@@ -1,0 +1,16 @@
+{
+    "hugo-partial": {
+        "prefix": "h-partial",
+        "body": [
+            "{{ partial \"${1:partial}.html\" . }}"
+        ],
+        "description": "Partial Template"
+    },
+    "hugo-partial-path": {
+        "prefix": "h-partial-path",
+        "body": [
+            "{{ partial \"${1:path}/${2:partial}.html\" . }}"
+        ],
+        "description": "Partial Template w/ path"
+    }
+}
