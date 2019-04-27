@@ -1,0 +1,56 @@
+{
+    "name": "vscode-hugo-snippets",
+    "displayName": "Hugo Snippets",
+    "description": "Hugo Snippets for VS Code",
+    "version": "0.1.0",
+    "license": "MIT",
+    "publisher": "fivethree",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fivethree-team/vscode-hugo-snippets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/fivethree-team/vscode-hugo-snippets/issues"
+    },
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "hugo",
+        "snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "md",
+                "aliases": [
+                    "Markdown"
+                ],
+                "filenamePatterns": [
+                    "*.md"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "md",
+                "path": "./snippets/hugo-markdown.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/hugo-templates.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/hugo-variables.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:publish": "vsce publish",
+        "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
+    }
+}
