@@ -11,13 +11,43 @@ All code snippets are based on and follow the official hugo documentation.
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-### Table of Content
-* [Snippet Prefix](#snippet-prefix)
-
 ### Snippet Prefix
 
 | Prefix | Description |
 | ------- | ----------|
 | `h-` | Hugo Snippets |
+
+<!-- Auto Generated Below -->
+
+# Table of Content
+* [Snippets Documentation](#snippets-documentation)
+  * [Md](#md)
+  * [Html](#html)
+
+## Md
+
+Prefix|Description
+---|---
+h-figure|Figure Shortcode
+h-gist|Gist Shortcode
+h-highlight|Highlight Shortcode
+h-instagram|Instagram Shortcode
+h-shortcode|Shortcode Template
+h-shortcode-param|Shortcode Template w/ param
+h-ref|Ref Shortcode
+h-tweet|Tweet Shortcode
+h-vimeo|Vimeo Shortcode
+h-youtube|Youtube Shortcode
+
+## Html
+
+Prefix|Description
+---|---
+h-partial|Partial Template
+h-partial-path|Partial Template w/ path
+h-description|Description page variable
+h-summary|Summary page variable
+h-table-of-contents|TableOfContents page variable
+h-title|Title page variable
 
 **[⬆ back to top](#table-of-content)**
