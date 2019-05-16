@@ -1,3 +1,18 @@
+## 0.1.2 (2019-05-16)
+
+
+### Bug Fixes
+
+* **md:** use markdown identifier ([f548c4d](https://github.com/fivethree-team/vscode-hugo-snippets/commit/f548c4d))
+
+
+### Features
+
+* **hugo:** shortcodes, partials and page variables ([9c836f3](https://github.com/fivethree-team/vscode-hugo-snippets/commit/9c836f3))
+* **shortcodes:** figure, gist, instagram, ref, tweet, vimeo, youtube ([fd39c41](https://github.com/fivethree-team/vscode-hugo-snippets/commit/fd39c41))
+
+
+
 ## 0.1.1 (2019-04-27)
 
 
