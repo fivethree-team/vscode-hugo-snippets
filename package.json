@@ -23,20 +23,9 @@
         "snippets"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "md",
-                "aliases": [
-                    "Markdown"
-                ],
-                "filenamePatterns": [
-                    "*.md"
-                ]
-            }
-        ],
         "snippets": [
             {
-                "language": "md",
+                "language": "markdown",
                 "path": "./snippets/hugo-markdown.json"
             },
             {
