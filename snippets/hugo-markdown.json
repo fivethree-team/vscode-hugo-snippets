@@ -16,7 +16,7 @@
     "hugo-highlight": {
         "prefix": "h-highlight",
         "body": [
-            "{{< highlight ${1|html,javascript,markdown,scss,typescript,terminal|} >}}",
+            "{{< highlight ${1|html,java,javascript,markdown,scss,typescript,terminal,toml,xml|} >}}",
             "$0",
             "{{< /highlight >}}"
         ],
