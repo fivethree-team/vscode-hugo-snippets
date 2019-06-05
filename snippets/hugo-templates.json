@@ -39,5 +39,86 @@
             "{{ partial \"${1:path}/${2:partial}.html\" . }}"
         ],
         "description": "Partial Template w/ path"
+    },
+    "hugo-range-pages": {
+        "prefix": "h-range-pages",
+        "body": [
+            "{{ range .Pages }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages w/ default order"
+    },
+    "hugo-range-pages-by-weight": {
+        "prefix": "h-range-pages-by-weight",
+        "body": [
+            "{{ range .Pages.ByWeight }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by weight, content with lower weight will come first"
+    },
+    "hugo-range-pages-by-date": {
+        "prefix": "h-range-pages-by-date",
+        "body": [
+            "{{ range .Pages.ByDate }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by date, orders content according to the 'date' field in front matter"
+    },
+    "hugo-range-pages-by-publish-date": {
+        "prefix": "h-range-pages-by-publish-date",
+        "body": [
+            "{{ range .Pages.ByPublishDate }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by publish date, orders content according to the 'publishdate' field in front matter"
+    },
+    "hugo-range-pages-by-expiration-date": {
+        "prefix": "h-range-pages-by-expiration-date",
+        "body": [
+            "{{ range .Pages.ByExpiryDate }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by publish date, orders content according to the 'expirydate' field in front matter"
+    },
+    "hugo-range-pages-by-lastmod-date": {
+        "prefix": "h-range-pages-by-lastmod-date",
+        "body": [
+            "{{ range .Pages.ByLastmod }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by lastmod date, orders content according to the 'lastmod' field in front matter"
+    },
+    "hugo-range-pages-by-length": {
+        "prefix": "h-range-pages-by-length",
+        "body": [
+            "{{ range .Pages.ByLength }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by lastmod date, the shortest content will be listed first"
+    },
+    "hugo-range-pages-by-title": {
+        "prefix": "h-range-pages-by-title",
+        "body": [
+            "{{ range .Pages.ByTitle }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages by lastmod date, orders according to the 'title' field set in front matter"
+    },
+    "hugo-range-pages-reverse": {
+        "prefix": "h-range-pages-reverse",
+        "body": [
+            "{{ range .Pages.${1:ByDate}.Reverse }}",
+            "\t$0",
+            "{{ end }}"
+        ],
+        "description": "`range`s through pages in reversed order, reversing order can be applied to any range method"
     }
 }
