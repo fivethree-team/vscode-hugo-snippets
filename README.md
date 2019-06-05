@@ -20,11 +20,16 @@ Type part of a snippet, press enter, and the snippet unfolds.
 <!-- Auto Generated Below -->
 
 # Table of Content
-* [Snippets Documentation](#snippets-documentation)
-  * [Md](#md)
-  * [Html](#html)
+- [Hugo Snippets](#hugo-snippets)
+  - [Using Snippets in VS Code](#using-snippets-in-vs-code)
+    - [Snippet Prefix](#snippet-prefix)
+- [Table of Content](#table-of-content)
+  - [Markdown](#markdown)
+  - [Function](#function)
+  - [Templates](#templates)
+  - [Variables](#variables)
 
-## Md
+## Markdown
 
 Prefix|Description
 ---|---
@@ -39,12 +44,40 @@ h-tweet|Tweet Shortcode
 h-vimeo|Vimeo Shortcode
 h-youtube|Youtube Shortcode
 
-## Html
+## Function
 
 Prefix|Description
 ---|---
+h-absURL|`absURL` creates an absolute URL based on the configured baseURL
+h-add|`add`ing numbers
+h-anchorize|`anchorize` sanitizes a string the same way as Blackfriday does for markdown headers
+h-lt|`lt` comparing numbers
+h-relURL|`relURL` prepends the relative URL according to a page’s position in the project directory structure
+h-title|`title` Converts all characters in the provided string to title case
+
+## Templates
+
+Prefix|Description
+---|---
+h-block|`block` allows you to define the outer shell of your pages’
+h-block-default|`block` may include default content
+h-define|`define` page variable
 h-partial|Partial Template
 h-partial-path|Partial Template w/ path
+h-range-pages|`range`s through pages w/ default order
+h-range-pages-by-weight|`range`s through pages by weight, content with lower weight will come first
+h-range-pages-by-date|`range`s through pages by date, orders content according to the 'date' field in front matter
+h-range-pages-by-publish-date|`range`s through pages by publish date, orders content according to the 'publishdate' field in front matter
+h-range-pages-by-expiration-date|`range`s through pages by publish date, orders content according to the 'expirydate' field in front matter
+h-range-pages-by-lastmod-date|`range`s through pages by lastmod date, orders content according to the 'lastmod' field in front matter
+h-range-pages-by-length|`range`s through pages by lastmod date, the shortest content will be listed first
+h-range-pages-by-title|`range`s through pages by lastmod date, orders according to the 'title' field set in front matter
+h-range-pages-reverse|`range`s through pages in reversed order, reversing order can be applied to any range method
+
+## Variables
+
+Prefix|Description
+---|---
 h-description|Description page variable
 h-summary|Summary page variable
 h-table-of-contents|TableOfContents page variable
