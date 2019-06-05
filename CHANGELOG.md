@@ -1,3 +1,14 @@
+# [0.2.0](https://github.com/fivethree-team/vscode-hugo-snippets/compare/v0.1.2...v0.2.0) (2019-06-05)
+
+
+### Features
+
+* **functions:** new functions snippets ([7864030](https://github.com/fivethree-team/vscode-hugo-snippets/commit/7864030))
+* **range:** range pages ([2e249dc](https://github.com/fivethree-team/vscode-hugo-snippets/commit/2e249dc))
+* **templates:** add block and define ([df2941b](https://github.com/fivethree-team/vscode-hugo-snippets/commit/df2941b))
+
+
+
 ## [0.1.3](https://github.com/fivethree-team/vscode-hugo-snippets/compare/v0.1.2...v0.1.3) (2019-06-03)
 
 ### Features

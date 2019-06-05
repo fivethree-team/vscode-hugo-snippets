@@ -2,7 +2,7 @@
     "name": "vscode-hugo-snippets",
     "displayName": "Hugo Snippets",
     "description": "Hugo Snippets for VS Code",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "license": "MIT",
     "publisher": "fivethree",
     "repository": {
