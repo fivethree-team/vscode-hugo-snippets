@@ -1,4 +1,31 @@
 {
+    "hugo-block": {
+        "prefix": "h-block",
+        "body": [
+            "{{ block \"${1:main}\" . }}",
+            "$0",
+            "{{ end }}"
+        ],
+        "description": "`block` allows you to define the outer shell of your pages’"
+    },
+    "hugo-block-default": {
+        "prefix": "h-block-default",
+        "body": [
+            "{{ block \"${1:title}\" . }}",
+            "\t$0{{ .Site.Title }}",
+            "{{ end }}"
+        ],
+        "description": "`block` may include default content"
+    },
+    "hugo-define": {
+        "prefix": "h-define",
+        "body": [
+            "{{ define \"${1:main}\" }}",
+            "$0",
+            "{{ end }}"
+        ],
+        "description": "`define` page variable"
+    },
     "hugo-partial": {
         "prefix": "h-partial",
         "body": [
