@@ -30,6 +30,10 @@
             },
             {
                 "language": "html",
+                "path": "./snippets/hugo-functions.json"
+            },
+            {
+                "language": "html",
                 "path": "./snippets/hugo-templates.json"
             },
             {

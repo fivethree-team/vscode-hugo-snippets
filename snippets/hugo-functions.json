@@ -1,0 +1,44 @@
+{
+    "hugo-absURL": {
+        "prefix": "h-absURL",
+        "body": [
+            "{{${1:.Permalink} | absURL }}"
+        ],
+        "description": "`absURL` creates an absolute URL based on the configured baseURL"
+    },
+    "hugo-add": {
+        "prefix": "h-add",
+        "body": [
+            "{{ add \"${1:1}\" ${2:2} }}"
+        ],
+        "description": "`add`ing numbers"
+    },
+    "hugo-anchorize": {
+        "prefix": "h-anchorize",
+        "body": [
+            "{{anchorize \"${1:.Title}\"}}"
+        ],
+        "description": "`anchorize` sanitizes a string the same way as Blackfriday does for markdown headers"
+    },
+    "hugo-lt": {
+        "prefix": "h-lt",
+        "body": [
+            "{{ lt \"${1:1}\" ${2:2} }}"
+        ],
+        "description": "`lt` comparing numbers"
+    },
+    "hugo-relURL": {
+        "prefix": "h-relURL",
+        "body": [
+            "{{${1:.Permalink} | relURL }}"
+        ],
+        "description": "`relURL` prepends the relative URL according to a page’s position in the project directory structure"
+    },
+    "hugo-title": {
+        "prefix": "h-title",
+        "body": [
+            "{{title \"${1:BatMan}\"}}"
+        ],
+        "description": "`title` Converts all characters in the provided string to title case"
+    }
+}
