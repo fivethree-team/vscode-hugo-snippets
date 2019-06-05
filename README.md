@@ -20,10 +20,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 <!-- Auto Generated Below -->
 
 # Table of Content
-- [Hugo Snippets](#hugo-snippets)
-  - [Using Snippets in VS Code](#using-snippets-in-vs-code)
-    - [Snippet Prefix](#snippet-prefix)
-- [Table of Content](#table-of-content)
   - [Markdown](#markdown)
   - [Function](#function)
   - [Templates](#templates)
