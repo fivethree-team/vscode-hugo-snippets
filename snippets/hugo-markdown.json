@@ -2,7 +2,7 @@
     "hugo-figure": {
         "prefix": "h-figure",
         "body": [
-            "{{< figure src=\"${1:imageUrl\" alt=\"${2:Description}\" >}}"
+            "{{< figure src=\"${1:imageUrl}\" alt=\"${2:Description}\" >}}"
         ],
         "description": "Figure Shortcode"
     },
