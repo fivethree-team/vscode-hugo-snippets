@@ -6,6 +6,27 @@
         ],
         "description": "Description page variable"
     },
+    "hugo-lastmod": {
+        "prefix": "h-lastmod",
+        "body": [
+            "{{ .Lastmod }}"
+        ],
+        "description": "Date the content was last modified"
+    },
+    "hugo-publish-date": {
+        "prefix": "h-publish-date",
+        "body": [
+            "{{ .PublishDate }}"
+        ],
+        "description": "Date on which the content was or will be published"
+    },
+    "hugo-reading-time": {
+        "prefix": "h-reading-time",
+        "body": [
+            "{{ .ReadingTime }}"
+        ],
+        "description": "Estimated time, in minutes, it takes to read the content"
+    },
     "hugo-summary": {
         "prefix": "h-summary",
         "body": [
@@ -26,5 +47,12 @@
             "{{ .Title }}"
         ],
         "description": "Title page variable"
+    },
+    "hugo-word-count": {
+        "prefix": "h-word-count",
+        "body": [
+            "{{ .WordCount }}"
+        ],
+        "description": "Number of words in the content"
     }
 }

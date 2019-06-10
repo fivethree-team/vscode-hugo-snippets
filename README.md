@@ -75,8 +75,12 @@ h-range-pages-reverse|`range`s through pages in reversed order, reversing order 
 Prefix|Description
 ---|---
 h-description|Description page variable
+h-lastmod|Date the content was last modified
+h-publish-date|Date on which the content was or will be published
+h-reading-time|Estimated time, in minutes, it takes to read the content
 h-summary|Summary page variable
 h-table-of-contents|TableOfContents page variable
 h-title|Title page variable
+h-word-count|Number of words in the content
 
 **[⬆ back to top](#table-of-content)**
