@@ -1,3 +1,18 @@
+# [0.3.0](https://github.com/fivethree-team/vscode-hugo-snippets/compare/v0.2.0...v0.3.0) (2019-07-03)
+
+
+### Bug Fixes
+
+* **figure:** correct closing tag for template ([f41d7c9](https://github.com/fivethree-team/vscode-hugo-snippets/commit/f41d7c9))
+
+
+### Features
+
+* **conditional:** add if and with conditionals ([f216627](https://github.com/fivethree-team/vscode-hugo-snippets/commit/f216627))
+* **variables:** lastmod, publishDate, readingTime, wordCount ([a5092b2](https://github.com/fivethree-team/vscode-hugo-snippets/commit/a5092b2))
+
+
+
 ## [0.2.2](https://github.com/fivethree-team/vscode-hugo-snippets/compare/v0.1.2...v0.2.2) (2019-06-10)
 
 
