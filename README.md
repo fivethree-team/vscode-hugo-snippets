@@ -11,6 +11,10 @@ All code snippets are based on and follow the official hugo documentation.
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
+## Trigger Markdown
+
+To trigger the snippets in Markdown you can use `^Space` [Snippets for Markdown](https://code.visualstudio.com/docs/languages/markdown#_snippets-for-markdown).
+
 ### Snippet Prefix
 
 | Prefix | Description   |
