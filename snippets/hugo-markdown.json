@@ -46,28 +46,28 @@
     "hugo-ref": {
         "prefix": "h-ref",
         "body": [
-           "[${1:Text}]({{< ref \"${2:pageName}.md\" >}})"
+            "[${1:Text}]({{< ref \"${2:pageName}.md\" >}})"
         ],
         "description": "Ref Shortcode"
     },
     "hugo-tweet": {
         "prefix": "h-tweet",
         "body": [
-           "{{< tweet ${1:tweetId} >}}"
+            "{{< tweet ${1:tweetId} >}}"
         ],
         "description": "Tweet Shortcode"
     },
     "hugo-vimeo": {
         "prefix": "h-vimeo",
         "body": [
-           "{{< vimeo ${1:videoId} >}}"
+            "{{< vimeo ${1:videoId} >}}"
         ],
         "description": "Vimeo Shortcode"
     },
     "hugo-youtube": {
         "prefix": "h-youtube",
         "body": [
-          "{{< youtube ${1:videoId} >}}"
+            "{{< youtube ${1:videoId} >}}"
         ],
         "description": "Youtube Shortcode"
     }
