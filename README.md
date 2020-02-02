@@ -24,10 +24,11 @@ To trigger the snippets in Markdown you can use `^Space` [Snippets for Markdown]
 <!-- Auto Generated Below -->
 
 # Table of Content
-  - [Markdown](#markdown)
-  - [Function](#function)
-  - [Templates](#templates)
-  - [Variables](#variables)
+
+- [Markdown](#markdown)
+- [Function](#function)
+- [Templates](#templates)
+- [Variables](#variables)
 
 ## Markdown
 
@@ -84,6 +85,7 @@ To trigger the snippets in Markdown you can use `^Space` [Snippets for Markdown]
 | ------------------- | -------------------------------------------------------- |
 | h-description       | Description page variable                                |
 | h-lastmod           | Date the content was last modified                       |
+| h-params            | Params variable                                          |
 | h-publish-date      | Date on which the content was or will be published       |
 | h-reading-time      | Estimated time, in minutes, it takes to read the content |
 | h-summary           | Summary page variable                                    |
