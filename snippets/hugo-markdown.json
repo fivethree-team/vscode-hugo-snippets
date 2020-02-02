@@ -1,74 +1,56 @@
 {
-    "hugo-figure": {
-        "prefix": "h-figure",
-        "body": [
-            "{{< figure src=\"${1:imageUrl}\" alt=\"${2:Description}\" >}}"
-        ],
-        "description": "Figure Shortcode"
-    },
-    "hugo-gist": {
-        "prefix": "h-gist",
-        "body": [
-            "{{< gist ${1:username} ${2:gistId} >}}"
-        ],
-        "description": "Gist Shortcode"
-    },
-    "hugo-highlight": {
-        "prefix": "h-highlight",
-        "body": [
-            "{{< highlight ${1|html,java,javascript,markdown,scss,typescript,terminal,toml,xml|} >}}",
-            "$0",
-            "{{< /highlight >}}"
-        ],
-        "description": "Highlight Shortcode"
-    },
-    "hugo-instagram": {
-        "prefix": "h-instagram",
-        "body": [
-            "{{< instagram ${1:photoId} >}}"
-        ],
-        "description": "Instagram Shortcode"
-    },
-    "hugo-shortcode": {
-        "prefix": "h-shortcode",
-        "body": [
-            "{{< ${1:shortcode} >}}"
-        ],
-        "description": "Shortcode Template"
-    },
-    "hugo-shortcode-param": {
-        "prefix": "h-shortcode-param",
-        "body": [
-            "{{< ${1:shortcode} ${2:param} >}}"
-        ],
-        "description": "Shortcode Template w/ param"
-    },
-    "hugo-ref": {
-        "prefix": "h-ref",
-        "body": [
-            "[${1:Text}]({{< ref \"${2:pageName}.md\" >}})"
-        ],
-        "description": "Ref Shortcode"
-    },
-    "hugo-tweet": {
-        "prefix": "h-tweet",
-        "body": [
-            "{{< tweet ${1:tweetId} >}}"
-        ],
-        "description": "Tweet Shortcode"
-    },
-    "hugo-vimeo": {
-        "prefix": "h-vimeo",
-        "body": [
-            "{{< vimeo ${1:videoId} >}}"
-        ],
-        "description": "Vimeo Shortcode"
-    },
-    "hugo-youtube": {
-        "prefix": "h-youtube",
-        "body": [
-            "{{< youtube ${1:videoId} >}}"
-        ],
-        "description": "Youtube Shortcode"
-    }
+  "hugo-figure": {
+    "prefix": "h-figure",
+    "body": ["{{< figure src=\"${1:imageUrl}\" alt=\"${2:Description}\" >}}"],
+    "description": "Figure Shortcode"
+  },
+  "hugo-gist": {
+    "prefix": "h-gist",
+    "body": ["{{< gist ${1:username} ${2:gistId} >}}"],
+    "description": "Gist Shortcode"
+  },
+  "hugo-highlight": {
+    "prefix": "h-highlight",
+    "body": [
+      "{{< highlight ${1|html,java,javascript,markdown,scss,typescript,terminal,toml,xml|} >}}",
+      "$0",
+      "{{< /highlight >}}"
+    ],
+    "description": "Highlight Shortcode"
+  },
+  "hugo-instagram": {
+    "prefix": "h-instagram",
+    "body": ["{{< instagram ${1:photoId} >}}"],
+    "description": "Instagram Shortcode"
+  },
+  "hugo-shortcode": {
+    "prefix": "h-shortcode",
+    "body": ["{{< ${1:shortcode} >}}"],
+    "description": "Shortcode Template"
+  },
+  "hugo-shortcode-param": {
+    "prefix": "h-shortcode-param",
+    "body": ["{{< ${1:shortcode} ${2:param} >}}"],
+    "description": "Shortcode Template w/ param"
+  },
+  "hugo-ref": {
+    "prefix": "h-ref",
+    "body": ["[${1:Text}]({{< ref \"${2:pageName}.md\" >}})"],
+    "description": "Ref Shortcode"
+  },
+  "hugo-tweet": {
+    "prefix": "h-tweet",
+    "body": ["{{< tweet ${1:tweetId} >}}"],
+    "description": "Tweet Shortcode"
+  },
+  "hugo-vimeo": {
+    "prefix": "h-vimeo",
+    "body": ["{{< vimeo ${1:videoId} >}}"],
+    "description": "Vimeo Shortcode"
+  },
+  "hugo-youtube": {
+    "prefix": "h-youtube",
+    "body": ["{{< youtube ${1:videoId} >}}"],
+    "description": "Youtube Shortcode"
+  }
 }
