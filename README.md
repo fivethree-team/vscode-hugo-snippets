@@ -7,6 +7,8 @@ Visual Studio Code Extension that adds Hugo snippets to your favorite IDE.
 
 All code snippets are based on and follow the official hugo documentation.
 
+Available for [VSCodium](https://vscodium.com/) at [Hugo Snippets](https://open-vsx.org/extension/fivethree/vscode-hugo-snippets).
+
 ## Using Snippets in VS Code
 
 Type part of a snippet, press enter, and the snippet unfolds.
