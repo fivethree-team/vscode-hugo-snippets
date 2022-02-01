@@ -38,7 +38,7 @@
     "body": [
       "{{< ${1:shortcode} ${2:param} >}}",
       "${0}",
-      "{{ /${1:shortcode} }}"
+      "{{< /${1:shortcode} >}}"
     ],
     "description": "Multiline Shortcode Template w/ param"
   },
