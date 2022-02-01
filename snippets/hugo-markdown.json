@@ -33,6 +33,15 @@
     "body": ["{{< ${1:shortcode} ${2:param} >}}"],
     "description": "Shortcode Template w/ param"
   },
+  "hugo-shortcode-multiline": {
+    "prefix": "h-shortcode-multiline",
+    "body": [
+      "{{< ${1:shortcode} ${2:param} >}}",
+      "${0}",
+      "{{ /${1:shortcode} }}"
+    ],
+    "description": "Multiline Shortcode Template w/ param"
+  },
   "hugo-ref": {
     "prefix": "h-ref",
     "body": ["[${1:Text}]({{< ref \"${2:pageName}.md\" >}})"],

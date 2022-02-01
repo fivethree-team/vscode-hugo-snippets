@@ -34,18 +34,19 @@ To trigger the snippets in Markdown you can use `^Space` [Snippets for Markdown]
 
 ## Markdown
 
-| Prefix            | Description                 |
-| ----------------- | --------------------------- |
-| h-figure          | Figure Shortcode            |
-| h-gist            | Gist Shortcode              |
-| h-highlight       | Highlight Shortcode         |
-| h-instagram       | Instagram Shortcode         |
-| h-shortcode       | Shortcode Template          |
-| h-shortcode-param | Shortcode Template w/ param |
-| h-ref             | Ref Shortcode               |
-| h-tweet           | Tweet Shortcode             |
-| h-vimeo           | Vimeo Shortcode             |
-| h-youtube         | Youtube Shortcode           |
+| Prefix                | Description                           |
+| --------------------- | ------------------------------------- |
+| h-figure              | Figure Shortcode                      |
+| h-gist                | Gist Shortcode                        |
+| h-highlight           | Highlight Shortcode                   |
+| h-instagram           | Instagram Shortcode                   |
+| h-shortcode           | Shortcode Template                    |
+| h-shortcode-param     | Shortcode Template w/ param           |
+| h-shortcode-multiline | Multiline Shortcode Template w/ param |
+| h-ref                 | Ref Shortcode                         |
+| h-tweet               | Tweet Shortcode                       |
+| h-vimeo               | Vimeo Shortcode                       |
+| h-youtube             | Youtube Shortcode                     |
 
 ## Function
 
